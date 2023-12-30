@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relational Selector</title>
+
+  <style>
+    #red-shirt>p {
+      color: red;
+      text-decoration: underline;
+    }
+
+    #red-shirt~p {
+      font-style: italic;
+      color: red;
+    }
+
+    #red-shirt+p {
+      font-style: italic;
+      color: gold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Team A</h1>
+
+  <section id="red-shirt">
+    <p>Visal</p>
+    <p>Dara</p>
+    <p>Bopha</p>
+    <section>
+      <h3>Failed Math</h3>
+      <p>Sombo</p>
+    </section>
+  </section>
+  <p>Welcome to Group A</p>
+  <p>Please Enjoy</p>
+  <p>Please Enjoy</p>
+
+
+  <h1>Team B</h1>
+  <section>
+    <p>Kaka</p>
+    <p>Nimol</p>
+  </section>
+</body>
+
+</html>
