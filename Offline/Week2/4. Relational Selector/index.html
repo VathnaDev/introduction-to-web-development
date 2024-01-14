@@ -7,45 +7,53 @@
   <title>Relational Selector</title>
 
   <style>
-    #red-shirt>p {
-      color: red;
-      text-decoration: underline;
-    }
-
-    #red-shirt~p {
-      font-style: italic;
+    .fruit li {
       color: red;
     }
 
-    #red-shirt+p {
-      font-style: italic;
-      color: gold;
+    .drinks li {
+      color: orange;
     }
+
+    .sport > p {
+      color: red;
+    }
+
+    h1 ~ p {
+      color: red;
+    }
+    
   </style>
 </head>
 
 <body>
-  <h1>Team A</h1>
+  <h1>Fruit</h1>
+  <p>Awesome Fruit</p>
+  <p>Awesome Drink</p>
 
-  <section id="red-shirt">
-    <p>Visal</p>
-    <p>Dara</p>
-    <p>Bopha</p>
-    <section>
-      <h3>Failed Math</h3>
-      <p>Sombo</p>
-    </section>
-  </section>
-  <p>Welcome to Group A</p>
-  <p>Please Enjoy</p>
-  <p>Please Enjoy</p>
+  <ul class="fruit">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Orange</li>
+  </ul>
 
+  <h1>Drinks</h1>
+  <ul class="drinks">
+    <li>Coke</li>
+    <li>Pepsi</li>
+    <li>Fanta</li>
+  </ul>
 
-  <h1>Team B</h1>
-  <section>
-    <p>Kaka</p>
-    <p>Nimol</p>
-  </section>
+  <h1>Sports</h1>
+  <div class="sport">
+    <p>Tennis</p>
+    <p>Soccer</p>
+    <div class="esport">
+      <p>EFootball</p>
+    </div>
+  </div>
 </body>
 
 </html>
+
+

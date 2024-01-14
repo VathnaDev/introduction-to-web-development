@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* article :first-child {
+            text-transform: uppercase;
+            font-size: 30px;
+            color: blue;
+        } */
+
+      article :last-of-type {
+        font-size: 30px;
+      }
+
+      img {
+        margin-top: 30px;
+        width: 200px;
+        border-radius: 16px;
+      }
+
+      img:hover {
+        border-radius: 4px;
+      }
+
+      ul :nth-child(even) {
+        color: red;
+      }
+
+      td {
+        border: 1px solid gray;
+      }
+      tbody tr:nth-child(odd){
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p>New sports are coming!!!</p>
+      <p>There are three sports avaible</p>
+
+      <button>Hello</button>
+      <button>World</button>
+
+      <br />
+
+      <img
+        src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12CF0/production/_113804077_ytm.png"
+        alt=""
+      />
+
+      <table>
+        <thead>
+          <th>NO</th>
+          <th>Invoice Number</th>
+          <th>Price</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>#0092</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>#0092</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>#0092</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>#0092</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>#0092</td>
+            <td>$30</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </body>
+</html>
