@@ -1,0 +1,48 @@
+.boxes {
+  width: 80vw;
+  height: 12000px;
+  border: 2px solid red;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.box-1 {
+  background-color: blue;
+}
+
+.box-2 {
+  background-color: red;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+
+.box-3 {
+  background-color: green;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+
+.box-4 {
+    background-color: black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.box-5 {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: red;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
