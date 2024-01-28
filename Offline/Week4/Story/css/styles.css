@@ -1,0 +1,54 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.stories {
+    padding: 1rem;
+    width: 100vw;
+    height: 22rem;
+    background-color: #242526;
+    display: flex;
+    overflow:scroll;
+}
+
+.story {
+    border-radius: 1rem;
+    background-color: grey;
+    width: 12rem;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 0.3rem;
+}
+
+.story > img {
+    object-fit: fill;
+    height: 70%;
+}
+
+.action {
+    height: 30%;
+    position: relative;
+    top: -1.7rem;
+}
+
+.button-add {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    border-radius: 10rem;
+    border: 1px solid gray;
+}
+
+.action p {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 0.2;
+}
