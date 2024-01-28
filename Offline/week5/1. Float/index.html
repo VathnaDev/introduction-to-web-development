@@ -6,6 +6,10 @@
     <title>Document</title>
 
     <style>
+      .tweet {
+        border: 1px solid red;
+      }
+
       .profile {
         width: 4rem;
         height: 4rem;
@@ -16,17 +20,15 @@
       }
 
       .clear::after {
-        content: "";
-        display: inline;
+        content: "Hllo";
+        display: block;
         clear: both;
       }
-
     </style>
   </head>
   <body>
     <div class="tweet clear">
       <div class="profile"></div>
-      <p>Elon Musk</p>
     </div>
   </body>
 </html>
